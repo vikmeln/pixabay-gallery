@@ -36,7 +36,7 @@
   border: 3px solid red;
 }
 
-button {
+.arrow {
   position: absolute;
   top: 50%;
   background: #333;
@@ -49,7 +49,7 @@ button {
   border-radius: 8px;
 }
 
-button:hover {
+.arrow:hover {
   background: #555;
 }
 
@@ -71,6 +71,32 @@ button:hover {
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   font-size: 15px;
+  align-items: center;
+}
+
+.author {
+  color: #4ea3ff;
+  cursor: pointer;
+}
+
+.author:hover {
+  text-decoration: underline;
+}
+
+.all {
+  background: #707070;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 6px 14px;
+  margin: 0 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.all:hover {
+  background: #989898;
 }
